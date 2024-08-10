@@ -1,4 +1,5 @@
 import './App.css'
+import ConditionalStyle from './components/ConditionalStyle/ConditionalStyle'
 import NavBar from './components/Navbar/NavBar'
 import { Outlet } from 'react-router-dom'
 
@@ -6,8 +7,7 @@ function App() {
 
   return (
     <>
-     <NavBar/>
-     <Outlet/>
+     <ConditionalStyle/>
     </>
   )
 }

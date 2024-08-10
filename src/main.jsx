@@ -12,10 +12,11 @@ import About from './components/About/About.jsx';
 import Product from './components/Product/Product.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import MoreInfo from './components/MoreInfo/MoreInfo.jsx';
+import ConditionalStyle from './components/ConditionalStyle/ConditionalStyle.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <ConditionalStyle/>,
     errorElement: <ErrorPage/>,
     children:[
       {
